@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"                  # Root directory where the main pom.xml is located
+    schedule:
+      interval: "daily"  
