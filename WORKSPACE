@@ -29,7 +29,7 @@ maven_install(
     artifacts = [
         "aopalliance:aopalliance:1.0",
         "com.google.auto.value:auto-value:1.6.3",
-        "com.google.code.findbugs:jsr305:3.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
         "com.google.dagger:dagger:2.22.1",
         "com.google.dagger:dagger-producers:2.22.1",
         "com.google.errorprone:error_prone_annotations:2.18.0",
