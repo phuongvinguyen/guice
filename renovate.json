@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+    "automerge": true,
+  "automergeType": "branch",
+  "automergeStrategy": "merge", 
+  "timezone": "Europe/Berlin",
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "enabled": true
+    }
+  ]
   ]
 }
